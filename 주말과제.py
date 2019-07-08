@@ -1,4 +1,8 @@
 #주말 과제2
+2. my_split() 함수 구현해라 
+대신, str 내용 중 ch를 기준으로 분리해서 리스트에 저장 후 리턴해라. def my_split(str, ch) 
+
+
 def my_split(str1, ch):
 
     if b in a:
