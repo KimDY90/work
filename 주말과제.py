@@ -5,13 +5,12 @@
 
 def my_split(str1, ch):
 
-    if b in a:
+    while b in a:
         c = a.index(b)
         h = len(b)
         d = a[ : c] + ' ' +a[(c+h) : ]
         e = [d]
-    else:
-        print("error")
+    break
     return e 
 
 
