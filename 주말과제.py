@@ -7,8 +7,9 @@ def my_split(str1, ch):
 
     if b in a:
         c = a.index(b)
-        d = a[ : c] + '\n' +a[c : ]
-        e = list(d)
+        h = len(b)
+        d = a[ : c] + ' ' +a[(c+h) : ]
+        e = [d]
     else:
         print("error")
     return e 
